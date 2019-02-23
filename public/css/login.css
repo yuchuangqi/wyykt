@@ -1,0 +1,152 @@
+body{
+    min-width: 960px;
+    min-height: 100%;
+    height: auto;
+    /* padding-top: 60px; */
+    position: relative; 
+    background: #eee;
+
+}
+
+.LorRbox{
+    width:1205px;
+    height: 433px;
+    margin: 0 auto;
+    background: white;
+    margin: 0 auto;
+    padding: 20px 0;
+    margin: 100px auto 80px;
+    box-sizing: content-box;
+}
+.boxcontainer{
+    margin: 0px auto;
+    width: 580px;
+    height: 433px;
+}
+.formcontent{
+    margin-top:20px;
+    padding:0 40px 40px;
+    height:433px;
+}
+.boxf>li:first-child{
+    border-bottom: 2px solid #49AF4F !important;
+}
+.boxf>li{
+    font-size: 20px;
+    height:52px;
+    width:180px;
+    border-bottom: 2px solid #c5cddb;
+    line-height: 52px;
+    text-align: left;
+}
+.boxs{
+    padding-top:30px;
+    height: 230px;
+    width:360px;
+    box-sizing: border-box;
+}
+.u-box{
+    display: flex;
+    border:1px solid #c5cddb;
+}
+.boxs .boxsone{
+    width: 22px;
+    height: 24px;
+    box-sizing: border-box;
+    margin:10px 10px 8px 10px;
+    line-height: 44px;
+}
+.boxs input:not(.login){
+    height: 44px;
+    width: 314px;
+    margin-left: 10px;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+}
+.login{
+    background-color: #49AF4F !important;
+    width: 360px;
+    height: 44px;
+    margin-top:20px;
+    border: 0;
+    outline: 0;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+}
+.u-logo{
+    width:36px;
+    border:0;
+}
+.submitBtn{
+    display: block;
+    text-align: center;
+    margin-top:20px;
+    width:360px;
+    height:44px;
+    line-height: 44px;
+    background: #49AF4F !important;
+    border-radius: 2px;
+    font-size: 18px;
+    color: white !important;
+}
+
+.unlogin label{
+    cursor: pointer;
+}
+.unlogin a,.unlogin,.otlog span{
+    color: black;
+    font-size: 12px;
+    color:#999
+}
+.otlog{
+    margin-top:20px;
+}
+.otlog a{
+    display: block;
+    float: right;
+    margin-left: 22px;
+}
+.otlog a span{
+    display: block;
+    width: 34px;
+    height:34px ;
+    background-size: 100% 100%;
+    margin-bottom: 4px;
+}
+.otlog a p{
+    font-size:12px;
+    color:#666;
+    height: 18px;
+    line-height: 18px;
+    text-align: center
+}
+.firtIcon{
+    margin-right: 138px;
+}
+.oticon1{
+    background: url("../imgs/login/loveCourse.png") no-repeat;  
+}
+.oticon2{
+    background: url("../imgs/login/renren.png") no-repeat;  
+}
+.oticon3{
+    background: url("../imgs/login/weibo.png") no-repeat;  
+}
+.oticon4{
+    background: url("../imgs/login/QQ.png") no-repeat;  
+}
+.oticon5{
+    background: url("../imgs/login/weixin.png") no-repeat;  
+}
+.toReg{
+    margin-left: 157px;
+    font-weight: bold;
+    font-size: 15px !important;
+    color: #1E90FF !important;  
+}
+.toReg:hover{
+    color:#49AF4F !important;
+}

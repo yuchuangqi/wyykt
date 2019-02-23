@@ -1,0 +1,100 @@
+.cartBig{
+    padding-top:60px;
+    width: 100%;
+    background: white;
+}
+.cartBox{
+    width:1205px;
+    margin:0 auto;
+}
+.ortitle{
+    width:1185px;
+    margin:0 auto;
+    padding:0 10px;
+}
+.cartTop {
+    padding:30px 0px 20px;
+    font-size: 16px;
+    line-height: 18px; 
+}
+.cartTitle{
+    padding: 0 10px;
+    background-color: #F8F8F8;
+    height: 36px;
+    border: 1px solid #E4E4E4;
+    padding-top: 10px;
+}
+.titlebox{
+    background-color: #F8F8F8;
+    height: 91px;
+    border: 1px solid #E4E4E4;
+    height: 92px;
+    padding: 0 10px;
+    padding-top: 20px;
+}
+.titlebox::after,.cartTitle::after,.total::after{
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    content: ".";
+}
+.checkBox,.img,.courName,.courPrice,.courTime,.del
+/* .titlebox input,.titlebox div,.cartTitle input,.cartTitle div */
+{
+    float: left;
+    font-size: 12px;
+    color:#666;
+}
+ .checkBox{
+    width: 20px;
+    height: 15px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+ .img{
+    width: 120px;
+    margin-right: 10px;
+} 
+.courName{
+    width:30%;
+}
+.courTime{
+    width: 30%;
+    text-align: center
+}
+.courPrice{
+    width: 20%;
+    text-align: center
+}
+.del{
+    background: url(../imgs/cart/icon.png) no-repeat;
+    background-position: -3px -26px;
+    width:20px;
+    height: 20px;
+}
+.courcount,.total{ 
+    background-color: #eee;
+    border: 1px solid #E4E4E4;
+    margin-bottom: 30px;
+}
+.courcount{
+    text-align: right;
+    padding: 10px 30px;
+}
+.total{
+    padding-left: 10px;
+    width: 1195px;
+    line-height: 62px
+}
+.total input{
+    margin-top:22px;
+}
+.account{
+     text-align: center;
+     background: #ccc;
+     color: white;
+     font-size: 20px;
+     cursor: pointer;
+ }

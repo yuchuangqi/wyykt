@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- 只有jquery-1.11.3才支持.size -->
+    <script src="../public/js/jquery-1.11.3.js"></script>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .topBanner{
+            margin: 0 auto;
+            width: 1130px;
+            height: 400px;
+            overflow:hidden;
+            position:relative 
+        }
+        .topBanner li{
+            list-style: none
+        }
+        .topImg{
+            width: 7000px;
+            height: 400px;
+        }
+        .topImg li{
+            float: left;
+        }
+        .topNum{
+            position: absolute;
+            bottom:20px;
+            left:0;
+            width: 100%;
+            text-align: center;
+            font-size: 0;
+        }
+        .topNum li{
+            height: 8px;
+            width: 8px;
+            margin-right: 8px;
+            background:rgba(255, 255, 255, 0.7);
+            display: inline-block;
+            cursor: pointer
+        }
+        /* .topNum li .on{ */
+        .on{
+            background: white !important;  
+            height: 16px !important;    
+        }
+        .topBanner>div:nth-child(3),.topBanner>div:nth-child(4){
+            width: 40px;
+            height: 70px;
+            /* background: rgba(0,0,0,0.5); */
+            position: absolute;
+            top:50%;
+            margin-top: -35px;
+            cursor: pointer;
+            font-size: 40px;
+            text-align: center;
+            line-height: 70px;
+            color: #fff;
+            font-family: "宋体"
+        }
+        .topBanner .btn_l{
+            left:0;
+            background:url("../public/imgs/index/indexSlideArrow.png") 0 -95px no-repeat !important;
+        }
+
+        .topBanner .btn_r{
+            right:0;
+            background:url("../public/imgs/index/indexSlideArrow.png") -66px 0 no-repeat !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="topBanner">
+        <ul class="topImg">
+            <li>
+                <a href="javascript:,">
+                    <img src="../public/imgs/index/lunbotu1.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="javascript:,">
+                    <img src="../public/imgs/index/lunbotu2.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="javascript:,">
+                    <img src="../public/imgs/index/lunbotu3.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="javascript:,">
+                    <img src="../public/imgs/index/lunbotu4.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="javascript:,">
+                    <img src="../public/imgs/index/lunbotu5.png" alt="">
+                </a>
+            </li>
+            <li>
+                <a href="javascript:,">
+                    <img src="../public/imgs/index/lunbotu6.png" alt="">
+                </a>
+            </li>
+        </ul>
+        <ul class="topNum" >
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+
+        </ul>  
+        <!-- &lt;&gt; -->
+        <div class=" btn_l"></div>
+        <div class=" btn_r"></div>
+
+        <!--轮播图bootstrap-->
+            <!-- <div id="mycar" class="carousel dropdown" data-ride="carousel" >
+                
+                <ul class="carousel-indicators">
+                    <li  data-slide-to="0" data-target="#mycar" class="active"></li>
+                    <li  data-slide-to="1" data-target="#mycar"></li>
+                    <li  data-slide-to="2" data-target="#mycar"></li>
+                    <li  data-slide-to="3" data-target="#mycar"></li>
+                    <li  data-slide-to="4" data-target="#mycar"></li>
+                    <li  data-slide-to="5" data-target="#mycar"></li>
+                </ul>
+               
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <a href="#">
+                            <img src="imgs/index/lunbotu1.png" style="width:1203px;height:400px;" />
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#">
+                            <img src="imgs/index/lunbotu2.png" style="width:1203px;height: 400px;"/>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#">
+                            <img src="imgs/index/lunbotu3.png" style="width:1203px;height: 400px;"/>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#">
+                            <img src="imgs/index/lunbotu4.png" style="width:1203px;height: 400px;"/>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#">
+                            <img src="imgs/index/lunbotu5.png" style="width:1203px;height: 400px;"/>
+                        </a>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="#">
+                            <img src="imgs/index/lunbotu6.png" style="width:1203px;height: 400px;"/>
+                        </a>
+                    </div> 
+                </div>
+               
+                <a href="#mycar" class="carousel-control-prev leftarr" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </a>
+                <a href="#mycar" class="carousel-control-next rigtharr" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </a>
+            </div> -->
+            <!-- 轮播图 -->
+    </div>
+    <script>
+       $(function(){    
+            var moved=0;
+            var size=$(".topBanner .topImg li").size()
+            $(".topBanner .topNum li").first().addClass("on")
+            //鼠标滑入小方块时切换
+            $(".topBanner .topNum li").click(function(){
+                var index=$(this).index()
+                moved=index;
+                $(".topImg").css("marginLeft",-1130*index)
+                $(".topBanner .topNum li").eq(index).addClass("on").siblings().removeClass("on")     
+            })
+             //按右边的按钮
+            $(".topBanner .btn_r").click(function(){
+                MoveR()      
+            }
+            )
+            function MoveL(){
+                 moved--;
+                if(moved==-1){
+                    moved=size-1
+                }
+                $(".topImg").css("marginLeft",-1130*moved)
+                $(".topBanner .topNum li").eq(moved).addClass("on").siblings().removeClass("on")
+            }
+            function MoveR(){
+                moved++;
+                if(moved===size){
+                    moved=0
+                }
+                $(".topImg").css("marginLeft",-1130*moved)
+                $(".topBanner .topNum li").eq(moved).addClass("on").siblings().removeClass("on")
+            }
+            //按左边的按钮
+            $(".topBanner .btn_l").click(function(){
+                MoveL()
+            })
+            //自动轮播
+            var t=setInterval(function(){
+                MoveR()
+            },4500)
+        })
+    </script>
+</body>
+</html>

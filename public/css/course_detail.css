@@ -1,0 +1,37 @@
+body{
+    margin: 0 auto;
+    background-color:#eee;
+}
+.container{
+    width: 1205px;
+    margin:0 auto;
+    padding:80px 0 20px;
+
+}
+.courtitle{
+    padding-bottom: 20px;
+   
+}
+.courbox{
+    padding: 20px 0 20px 20px;
+    height: 350px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between
+}
+.boxleft,.boxright{
+    border:1px solid red;
+}
+.boxright{
+    width:695px;
+    height:247px;
+    padding-right: 20px;
+}
+.u-rating .star{
+    width:16px;
+    height: 16px;
+    float: left;
+    margin-top:2px;
+    background: url("../imgs/course_detail/ui/ui_sprite.png") no-repeat;
+    background-position:0px -200px;
+}

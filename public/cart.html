@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>清单</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+<header id="header"></header>
+<div class="cartBig">
+    <div class="cartBox">
+        <div class="cartTop">
+            <p>我的购物车&nbsp;&nbsp;
+            <span>共<span>1</span>门课程</span>
+            </p>
+        </div>
+        <div class="cartTitle">
+            <input type="checkbox" class="checkBox">
+            <div class="img">全选</div>
+            <div class="courName">课程名称</div>
+            <div class="courTime">学期或课程有效期</div>
+            <div class="courPrice">单价(元)</div>
+        </div>
+    </div>
+    <div class="cartBox" style="height:30px"></div>
+    <!--主菜单部分 -->
+    <div class="CartMain">
+        <div class="CartCont">
+        <!-- cartBox 1205px 中间对齐 -->
+        <div class="cartBox ortitle">
+            <input type="checkbox" class="checkBox">
+            <span>机构</span>&nbsp;&nbsp;<span>麦田里英语</span>
+        </div>
+        <div class="cartBox" >
+            <div class="titlebox">
+                <input type="checkbox" class="checkBox">
+                <div class="img">
+                    <img src="imgs/cart/carimg/shop1.jpg" alt="">
+                </div>
+                <div class="courName">英语零到听说流利，一套课就够了</div>
+                <div class="courTime">永久有效</div>
+                <div class="courPrice">980</div>
+                <div class="del"></div>
+            </div>    
+            <div style="text-align:right" class="courcount">该机构小计:￥0.00</div>
+        </div>
+        </div>
+        <div class="CartCont">
+            <!-- cartBox 1205px 中间对齐 -->
+            <div class="cartBox ortitle">
+                <input type="checkbox" class="checkBox">
+                <span>机构</span>&nbsp;&nbsp;<span>麦田里英语</span>
+            </div>
+            <div class="cartBox" >
+                <div class="titlebox">
+                    <input type="checkbox" class="checkBox">
+                    <div class="img">
+                        <img src="imgs/cart/carimg/shop1.jpg" alt="">
+                    </div>
+                    <div class="courName">英语零到听说流利，一套课就够了</div>
+                    <div class="courTime">永久有效</div>
+                    <div class="courPrice">980</div>
+                    <div class="del"></div>
+                </div>    
+                <div style="text-align:right" class="courcount">该机构小计:￥0.00</div>
+            </div>
+        </div>
+    </div>
+    <!-- 结算菜单 -->
+    <div class="cartBox total">
+            <input type="checkbox" class="checkBox">
+            <div class="img" >全选</div>
+            <div class="account" style="float:right;width:122px;height:62px;background: #ccc">去结算</div>
+            <span style="float: right;padding-right: 20px">合计：￥0.00</span>
+    </div>
+</div>
+<footer id="footer"></footer>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+</body>
+</html>

@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/popper.min.js"></script>
+    <script src="js/base.js" ></script>
+    <title>首页</title>
+</head>
+<body>
+    <!--隐藏的头部 -->
+    <header id="header"></header>
+    <!--头部上部-->
+    <div class="top">
+            <div class="hfisrt">
+                <span>创造更有效的学习!</span>
+                <a href="javasc:;">中国大学MOOC</a>
+                <a href="https://100.163.com/?utm_medium=web_nav&utm_campaign=business&utm_source=study.163.com" target="_blank">网易100分</a>
+                <a href="https://codecombat.163.com/?utm_source=study.163.com&utm_medium=web_nav&utm_campaign=business" target="_blank">极客战记</a>
+                <a href="https://geek.163.com/?utm_source=study.163.com&utm_medium=web_bottombanner&utm_campaign=business&utm_content=qxq20180720" target="_blank">网易卡塔编程</a>
+            </div>
+    </div>
+    <!--头部中部-->
+    <div class="hsecond ">
+            <img src="imgs/index/logo5.png" alt="" class="logo5" >
+            <div class="login">
+                <img src="imgs/header/small.jpg" width="28px" height="28px" >
+                    <!-- <div class="logindrop" style="display:block;position: absolute">
+                            <span style="background: url(imgs/index/appbar.png)-187px 0 no-repeat"></span>
+                            <a href="#"><span>游客，请登录</span></a>
+                            <a href="#"><span>我的优惠券</span></a>
+                            <a href="#"><span>我的订单</span></a>
+                            <a href="#"><span>帮助与反馈</span></a>
+                            <a href="#"><span>设置</span></a>   
+                    </div> -->
+                <a href="login.html">登录/注册</a>
+                <i style="float: right;margin-left:30px">|</i>
+                <a href="#" title="成为课程提供方">成为课程提供方</a>
+                <a href="#" style="color:red;">VIP会员中心</a>
+                <a href="#" title="查看我的购物车">购物车</a>
+                <a href="#" >消息</a>
+                <a href="#">我的学习</a>
+            </div>
+    </div>
+    <!--头部下部-->
+    <div class="hend d-flex ">
+            <a href="/courses.html?kwords=好评" class="d-flex">
+                <div id="shx" style="background: url(imgs/index/appbar.png) 0 0 no-repeat" ></div>
+                <span>全部精品课</span>
+            </a>
+            <div class="nvfind ">
+                <a href="#" class="float-left">微专业</a>
+                <div class="float-left" style="position: relative">
+                    <span data-trigger="drop">课程体系</span>
+                    <div class="dropdownm" >
+                        <span style="background: url(imgs/index/appbar.png)-187px 0 no-repeat"></span>
+                        <a href="#"><span>大学计算机</span></a>
+                        <a href="#"><span>IBM认知计算</span></a>
+                        <a href="#"><span>职业成长</span></a>
+                        <a href="#"><span style="border-bottom: none">互联网职业技能</span></a>
+                    </div>
+                </div>
+                <div>
+                    <a href="#" class="float-left " data-trigger="drop" >下载APP</a>
+                    <div id="erweima" style="display: none">
+                        <span style="background: url(imgs/index/appbar.png)-187px 0 no-repeat"></span>
+                        <img src="imgs/index/toperweima.png" alt="">
+                        <div >
+                            <h4>扫码下载官方App</h4>
+                            <a href="#" id="applod" style="background: url(imgs/index/appbar.png) 0px -28px no-repeat"></a>
+                            <a href="#" id="andlod" style="background: url(imgs/index/appbar.png) 0px -76px no-repeat"></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="" class="float-left">企业培训</a>
+                <a href="" class="float-left">VIP会员团购</a>
+            </div>
+                <input type="text" placeholder="搜索课程">
+                <img src="imgs/index/search.png" width="36px" height="36px" alt="">
+    </div>
+    <!--box主体-->
+    <div class="Box">
+        <div class="box">
+        <div class="boxBody">
+            <!-- 图片轮播 -->
+            <div class="topBanner" >
+                <ul class="topImg">
+                     <!-- <li>
+                        <a href="javascript:;">
+                            <img src="../public/imgs/index/lunbotu1.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="../public/imgs/index/lunbotu2.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="../public/imgs/index/lunbotu3.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="../public/imgs/index/lunbotu4.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="../public/imgs/index/lunbotu5.png" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <img src="../public/imgs/index/lunbotu6.png" alt="">
+                        </a>
+                    </li> -->
+                </ul>
+                <ul class="topNum" >        
+                </ul>  
+                <!-- &lt;&gt; -->
+                    <span class="btn_l"></span>
+                    <span class="btn_r"></span>       
+            </div>
+            <!-- 中间课程box -->
+            <div class="rightoutItem" style="position: absolute">
+                <div class="rot">
+                    <div data-trigger="rightout" class="rightout">
+                        <a href="#">办公效率</a>
+                        <a href="#">PPT</a>
+                        <a href="#">Excel</a>
+                        <a href="#">Word</a>
+                    </div>
+                    <div class="routmenu rightoutmenu1" style="display:none;" >
+                    <div class="rtml">
+                        <a href="javascipt:;">办公效率 精选好课</a>
+                        <a href="javascipt:;">跟刘万祥学Excel商务图标</a>
+                        <ul >
+                            <li><a href="javascipt:;" id="midTex">办公软件</a></li><span>|</span>
+                            <li><a href="javascipt:;">PPT</a></li><span>|</span>
+                            <li><a href="#">Excel</a></li><span>|</span>
+                            <li><a href="#">Word</a></li><span>|</span>
+                            <li><a href="#">Project</a></li><span>|</span>
+                            <li><a href="#">Keynote</a></li><span>|</span>
+                            <li><a href="#">Outlook</a></li><span>|</span>
+                            <li><a href="#">SPSS</a></li><span>|</span>
+                            <li><a href="#">更多软件</a>
+                        </ul>
+                        <ul>
+                            <li><a href="">工作效率</a></li><span>|</span>
+                            <li><a href="">思维导图</a></li><span>|</span>
+                            <li><a href="">时间管理</a></li><span>|</span>
+                            <li><a href="">Omnl系列</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">电脑基础</a></li><span>|</span>
+                            <li><a href="">基础操作</a></li><span>|</span>
+                            <li><a href="">微课制作</a></li><span>|</span>
+                            <li><a href="">常用工具</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">考试认证</a></li><span>|</span>
+                            <li><a href="">计算机二级Office</a></li><span>|</span>
+                            <li><a href="">微软MOS认证</a></li>
+                        </ul>
+                    </div>
+                    <div class="rtmr">
+                        <a href="#">系列课程</a>
+                        <a href="#">从Excel到Power BI数据分析可视化</a>
+                        <a href="#">Excel+PPT+Word小白变大神</a>
+                        <a href="#">英语口语指南—为暑期出境旅游定制</a>
+                        <a href="#">向《经济学人》学图标</a>
+                        <a href="#">如何成为真正的PPT高手</a>
+                        <a href="#">向商业期刊学图表</a>
+                        <a href="#">更多&gt;&gt;</a>
+                        <img src="imgs/index/ybhc1.png" alt="">
+                    </div>
+                </div>
+                </div>
+                <div class="rot" >
+                    <div data-trigger="rightout" class="rightout">
+                    <a href="#">职业发展</a>
+                    <a href="#">求职应聘</a>
+                    <a href="#">职场能力</a>
+                </div>
+                    <div class="routmenu rightoutmenu2" style="display:none;">
+                    <div class="rtml">
+                        <a href="">轻松手绘，重磅升级</a>
+                        <a href="">输出力学院：学习进化论</a>
+                        <ul>
+                            <li><a href="#">个人提升</a></li><span>|</span>
+                            <li><a href="#">礼仪形象</a></li><span>|</span>
+                            <li><a href="#">个人品牌</a></li><span>|</span>
+                            <li><a href="#">演讲技能</a></li><span>|</span>
+                            <li><a href="#">时间管理</a></li><span>|</span>
+                            <li><a href="#">知识管理</a></li><span>|</span>
+                            <li><a href="#">职业习惯</a></li><span>|</span>
+                            <li><a href="#">职业思维</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">职场能力</a></li><span>|</span>
+                            <li><a href="">职场经验</a></li><span>|</span>
+                            <li><a href="">人际沟通</a></li><span>|</span>
+                            <li><a href="">团队协作</a></li><span>|</span>
+                            <li><a href="">商务谈判</a></li><span>|</span>
+                            <li><a href="">人脉管理</a></li><span>|</span>
+                            <li><a href="">项目管理</a></li><span>|</span>
+                            <li><a href="">领导能力</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">求职应聘</a></li><span>|</span>
+                            <li><a href="">职业规划</a></li><span>|</span>
+                            <li><a href="">简历制作</a></li><span>|</span>
+                            <li><a href="">笔试技巧</a></li><span>|</span>
+                            <li><a href="">面试技巧</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">商学院</a></li><span>|</span>
+                            <li><a href="">商业通识</a></li><span>|</span>
+                            <li><a href="">商业实践</a></li>
+                        </ul>
+                    </div>
+                    <div class="rtmr">
+                        <a href="#">系列课程</a>
+                        <a href="#">跟财商教练提升商业思维</a>
+                        <a href="#">来自500强的职场课</a>
+                        <a href="#">跟柏永辉学人生进阶</a>
+                        <a href="#">跟倍肯玩转线上培训</a>
+                        <a href="#">如何成为真正的PPT高手</a>
+                        <a href="#">年轻人必学的7堂职场课</a>
+                        <a href="#">跟C计划学思维</a>
+                        <a href="#">更多&gt;&gt;</a>
+                        <img src="imgs/index/ybhc2.jpg" alt="">
+                    </div>
+                </div>
+                </div>
+                <div class="rot">
+                <div data-trigger="rightout" class="rightout">
+                    <a href="#">职业岗位</a>
+                    <a href="#">设计软件</a>
+                    <a href="#">平面设计</a>
+                </div>
+                <div class="routmenu rightoutmenu3" style="display:none;" >
+                    <div class="rtml">
+                        <a href="">设计软件一课通关</a>
+                        <a href="">精品设计课堂</a>
+                        <ul>
+                            <li><a href="#">设计软件</a></li><span>|</span>
+                            <li><a href="#">Photoshop</a></li><span>|</span>
+                            <li><a href="#">Illustrator</a></li><span>|</span>
+                            <li><a href="#">Affter Effects</a></li><span>|</span>
+                            <li><a href="#">Sketch</a></li><span>|</span>
+                            <li><a href="#">CorELDRAW</a></li><span>|</span>
+                            <li><a href="#">3DMAX</a></li><span>|</span>
+                        </ul>
+                        <ul>
+                            <li style="margin-left: 88px"></li>
+                            <li><a href="#" class="pt-0">AutoCAD</a></li><span class="pt-0">|</span>
+                            <li><a href="#" class="pt-0">XD</a></li><span class="pt-0">|</span>
+                            <li><a href="#" class="pt-0">其它软件</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">平面设计</a></li><span>|</span>
+                            <li><a href="">广告海报设计</a></li><span>|</span>
+                            <li><a href="">字体设计</a></li><span>|</span>
+                            <li><a href="">商业插画</a></li><span>|</span>
+                            <li><a href="">设计思维与方法</a></li><span>|</span>
+                            <li><a href="">电商视觉设计</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">其他设计</a></li><span>|</span>
+                            <li><a href="">影视动画&游戏</a></li><span>|</span>
+                            <li><a href="">工业设计</a></li><span>|</span>
+                            <li><a href="">建筑家装设计</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">市场营销</a></li><span>|</span>
+                            <li><a href="">电子商务</a></li><span>|</span>
+                            <li><a href="">市场销售</a></li><span>|</span>
+                            <li><a href="">网络营销</a></li><span>|</span>
+                            <li><a href="">品牌推广</a></li><span>|</span>
+                            <li><a href="">广告创意</a></li><span>|</span>
+                            <li><a href="">市场调研</a></li>
+                            <li><a href="">其他</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">人力资源管理</a></li><span>|</span>
+                            <li><a href="">员工关系</a></li><span>|</span>
+                            <li><a href="">招聘管理</a></li><span>|</span>
+                            <li><a href="">绩效管理</a></li><span>|</span>
+                            <li><a href="">培训管理</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">专业岗位</a></li><span>|</span>
+                            <li><a href="">医学科研</a></li><span>|</span>
+                            <li><a href="">汽车制造</a></li><span>|</span>
+                            <li><a href="">文献写作</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">其他职业岗位</a></li><span>|</span>
+                            <li><a href="">商务谈判</a></li><span>|</span>
+                            <li><a href="">职业培训</a></li><span>|</span>
+                            <li><a href="">特色岗位</a></li>
+                        </ul>
+                    </div>
+                    <div class="rtmr">
+                        <a href="#">系列课程</a>
+                        <a href="#">设计必学-全套四部超级合辑</a>
+                        <a href="#">创意部卡壳</a>
+                        <a href="#">商业设计师成长计划</a>
+                        <a href="#">创业必学：2大利器</a>
+                        <a href="#">更多&gt;&gt;</a>
+                        <img src="imgs/index/ybhc3.jpg" alt="">
+                    </div>
+                </div>
+                </div>
+                <div class="rot">
+                    <div data-trigger="rightout" class="rightout">
+                    <a href="#">IT&互联网</a>
+                    <a href="#">前端开发</a>
+                    <a href="#">编程语言</a>
+                </div>
+                    <div class="routmenu rightoutmenu4" style="display: none">
+                    <div class="rtml">
+                        <a href="">实战Python必备</a>
+                        <a href="">乐高@课程强势登陆</a>
+                        <ul>
+                            <li><a href="#">编程语言</a></li><span>|</span>
+                            <li><a href="#">Python</a></li><span>|</span>
+                            <li><a href="#">PHP</a></li><span>|</span>
+                            <li><a href="#">Java</a></li><span>|</span>
+                            <li><a href="#">C</a></li><span>|</span>
+                            <li><a href="#">C++</a></li><span>|</span>
+                            <li><a href="#">C#</a></li><span>|</span>
+                            <li><a href="#">R</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">前端开发</a></li><span>|</span>
+                            <li><a href="">开发语言</a></li><span>|</span>
+                            <li><a href="">前端框架</a></li><span>|</span>
+                            <li><a href="">开发实践</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">后端开发</a></li><span>|</span>
+                            <li><a href="">Java Web</a></li><span>|</span>
+                            <li><a href="">Python</a></li><span>|</span>
+                            <li><a href="">PHP Web</a></li><span>|</span>
+                            <li><a href="">.NET</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">移动开发</a></li><span>|</span>
+                            <li><a href="">微信开发</a></li><span>|</span>
+                            <li><a href="">iOS</a></li><span>|</span>
+                            <li><a href="">React Native</a></li><span>|</span>
+                            <li><a href="">Android</a></li><span>|</span>
+                            <li><a href="">Unity3D</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">网络与运维</a></li><span>|</span>
+                            <li><a href="">软件工程与方法</a></li><span>|</span>
+                            <li><a href="">网络与通讯</a></li><span>|</span>
+                            <li><a href="">信息安全</a></li><span>|</span>
+                            <li><a href="">测试运维</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">互联网产品</a></li><span>|</span>
+                            <li><a href="">产品设计</a></li><span>|</span>
+                            <li><a href="">产品经理</a></li><span>|</span>
+                        </ul>
+                        <ul>
+                            <li><a href="">互联网运营</a></li><span>|</span>
+                            <li><a href="">用户运营</a></li><span>|</span>
+                            <li><a href="">新媒体运营</a></li><span>|</span>
+                            <li><a href="">数据运营</a></li><span>|</span>
+                        </ul>
+                        <ul>
+                            <li><a href="">互联网设计</a></li><span>|</span>
+                            <li><a href="">用户体验</a></li><span>|</span>
+                            <li><a href="">交互设计</a></li><span>|</span>
+                            <li><a href="">UI设计</a></li>
+                        </ul>
+                    </div>
+                    <div class="rtmr">
+                        <a href="#">系列课程</a>
+                        <a href="#">用WordPress做网站系列课程</a>
+                        <a href="#">微互动：精品运营专题</a>
+                        <a href="#">微信运营营销全攻略(2017全面升级)</a>
+                        <a href="#">方糖课/专题</a>
+                        <a href="#">Java学习指南系列</a>
+                        <a href="#">Web前端：JavaScript入门到全栈</a>
+                        <a href="#">更多&gt;&gt;</a>
+                        <img src="imgs/index/ybhc4.jpg" alt="">
+                    </div>
+                </div>
+                </div>
+                <div class="rot">
+                    <div data-trigger="rightout" class="rightout">
+                    <a href="#">人工智能</a>
+                    <a href="#">区块链</a>
+                    <a href="#">数据科学</a>
+                </div>
+                    <div class="routmenu rightoutmenu5" style="display: none">
+                    <div class="rtml">
+                        <a href="">人工智能行家带你学</a>
+                        <a href="">百度内训课程</a>
+                        <ul>
+                            <li><a href="#">数据科学</a></li><span>|</span>
+                            <li><a href="#">数据分析</a></li><span>|</span>
+                            <li><a href="#">大数据</a></li><span>|</span>
+                            <li><a href="#">数据库</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">人工智能</a></li><span>|</span>
+                            <li><a href="">机械学习</a></li><span>|</span>
+                            <li><a href="">深度学习</a></li><span>|</span>
+                            <li><a href="">编程基础</a></li><span>|</span>
+                            <li><a href="">其它应用</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">区块链</a></li><span>|</span>
+                            <li><a href="">DAPP智能合的开发</a></li><span>|</span>
+                            <li><a href="">比特币</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">智能设备和物联网</a></li>
+                        </ul>
+                    </div>
+                    <div class="rtmr">
+                        <a href="#">系列课程</a>
+                        <a href="#">数据达人培养计划</a>
+                        <a href="#">跟文彤老师学SPSS数据分析</a>
+                        <a href="#">Python人工智能实践</a>
+                        <a href="#">Python数据分析与挖掘实践</a>
+                        <a href="#">用SPSS做数据分析</a>
+                        <a href="#">百度内训课程公开</a>
+                        <a href="#">更多&gt;&gt;</a>
+                        <img src="imgs/index/ybhc5.png" alt="">
+                    </div>
+                </div>
+                </div>
+                <div class="rot">
+                    <div data-trigger="rightout" class="rightout">
+                    <a href="#">金融财会</a>
+                    <a href="#">理财</a>
+                    <a href="#">考试</a>
+                    <a href="#">综合</a>
+                </div>
+                    <div class="routmenu rightoutmenu6" style="display: none">
+                    <div class="rtml">
+                        <a href="">华尔街见闻股票成长营</a>
+                        <a href="">金融人必备经济学理论</a>
+                        <ul>
+                            <li><a href="#">个人理财</a></li><span>|</span>
+                            <li><a href="#">理财基础</a></li><span>|</span>
+                            <li><a href="#">基金</a></li><span>|</span>
+                            <li><a href="#">股票债券</a></li><span>|</span>
+                            <li><a href="#">保险</a></li><span>|</span>
+                            <li><a href="#">外汇</a></li><span>|</span>
+                            <li><a href="#">房产</a></li><span>|</span>
+                            <li><a href="#">P2P</a></li><span>|</span>
+                            <li><a href="">区块链</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">金融财会理论</a></li><span>|</span>
+                            <li><a href="">金融综合</a></li><span>|</span>
+                            <li><a href="">财会综合</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">金融行业</a></li><span>|</span>
+                            <li><a href="">基金证券</a></li><span>|</span>
+                            <li><a href="">投融资</a></li><span>|</span>
+                            <li><a href="">银行</a></li><span>|</span>
+                            <li><a href="">股票</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">金融财会考试</a></li><span>|</span>
+                            <li><a href="">金融考试</a></li><span>|</span>
+                            <li><a href="">财会考试</a></li><span>|</span>
+                            <li><a href="">CFA</a></li><span>|</span>
+                            <li><a href="">ACCA</a></li><span>|</span>
+                            <li><a href="">CPA</a></li>
+                        </ul>
+                    </div>
+                    <div class="rtmr">
+                        <a href="#">系列课程</a>
+                        <a href="#">华尔街见闻股票成长营</a>
+                        <a href="#">证券分析师养成</a>
+                        <a href="#">职场新人理财全攻略</a>
+                        <a href="#">基金投资：从入门到精通</a>
+                        <a href="#">更靖平老师靠初级会计师</a>
+                        <a href="#">周小树老师课程合辑</a>
+                        <a href="#">更多&gt;&gt;</a>
+                        <img src="imgs/index/ybhc6.jpg" alt="">
+                    </div>
+                </div>
+                </div>
+                <div class="rot">
+                    <div data-trigger="rightout" class="rightout">
+                    <a href="#">语言留学</a>
+                    <a href="#">英语</a>
+                    <a href="#">留学</a>
+                    <a href="#">小语种</a>
+                </div>
+                    <div class="routmenu rightoutmenu7" style="display: none">
+                    <div class="rtml">
+                        <a href="">如何在国际企业加速职业发展</a>
+                        <a href="">环球在线雅思语法课程</a>
+                        <ul>
+                            <li><a href="#">英语口语</a></li><span>|</span>
+                            <li><a href="#">职场口语</a></li><span>|</span>
+                            <li><a href="#">生活口语</a></li><span>|</span>
+                            <li><a href="#">零基础入门</a></li><span>|</span>
+                            <li><a href="#">美式发音</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">新概念英语</a></li><span>|</span>
+                            <li><a href="">新概念</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">英语零基础</a></li><span>|</span>
+                            <li><a href="">英语单词</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">少儿英语</a></li><span>|</span>
+                            <li><a href="">零基础入门</a></li><span>|</span>
+                            <li><a href="">自然拼读</a></li><span>|</span>
+                            <li><a href="">音标</a></li><span>|</span>
+                            <li><a href="">原版绘本</a></li><span>|</span>
+                            <li><a href="">美式发音</a></li><span>|</span>
+                            <li><a href="">英式发音</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">英语考试</a></li><span>|</span>
+                            <li><a href="">四六级</a></li><span>|</span>
+                            <li><a href="">考研英语</a></li><span>|</span>
+                            <li><a href="">BEC商务英语</a></li><span>|</span>
+                            <li><a href="">大学英语统考</a></li><span>|</span>
+                            <li><a href="">CATTI</a></li><span>|</span>
+                            <li><a href="">托业</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">出国留学</a></li><span>|</span>
+                            <li><a href="">托福</a></li><span>|</span>
+                            <li><a href="">雅思</a></li><span>|</span>
+                            <li><a href="">其它</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">日语</a></li><span>|</span>
+                            <li><a href="">日语入门</a></li><span>|</span>
+                            <li><a href="">日语教材</a></li><span>|</span>
+                            <li><a href="">日语能力考试</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">韩语</a></li><span>|</span>
+                            <li><a href="">韩语入门</a></li><span>|</span>
+                            <li><a href="">韩语教材</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">小语种/方言等</a></li><span>|</span>
+                            <li><a href="">小语种</a></li><span>|</span>
+                            <li><a href="">方言和普通话</a></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#">系列课程</a>
+                        <a href="#">英语口语指南—为暑期出境旅游定制</a>
+                        <a href="#">跟着杜松老师说文解词</a>
+                        <a href="#">带着外语的力量行走世界</a>
+                        <a href="#">口语就这么练</a>
+                        <a href="#">从韩语零基础到TOPIK高级</a>
+                        <a href="#">更多&gt;&gt;</a>
+                        <img src="imgs/index/ybhc7.jpg" alt="">
+                    </div>
+                </div>
+                </div>
+                <div class="rot">
+                    <div data-trigger="rightout" class="rightout">
+                    <a href="#">职业考试</a>
+                    <a href="#">软考</a>
+                    <a href="#">建考</a>
+                    <a href="#">公考</a>
+                </div>
+                    <div class="routmenu rightoutmenu8" style="display: none">
+                    <div class="rtml">
+                        <a href="">软考金牌讲师带你一次取证</a>
+                        <a href="">学新媒体运营，做时代新贵</a>
+                        <ul>
+                            <li><a href="#">项目管理</a></li><span>|</span>
+                            <li><a href="">PMP</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">计算机类认证</a></li><span>|</span>
+                            <li><a href="">计算机等级考试</a></li><span>|</span>
+                            <li><a href="">软考</a></li><span>|</span>
+                            <li><a href="">华为思科认证</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">建筑工程</a></li><span>|</span>
+                            <li><a href="">一键/二建</a></li><span>|</span>
+                            <li><a href="">一级消防</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">医药卫生</a></li><span>|</span>
+                            <li><a href="">医师/药师</a></li><span>|</span>
+                            <li><a href="">康复医学</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">电子商务师</a></li><span>|</span>
+                            <li><a href="">电子商务考试</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">新媒体运营师</a></li><span>|</span>
+                            <li><a href="">新媒体运营考试</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">人力资源师</a></li><span>|</span>
+                            <li><a href="">二级人力资源师</a></li><span>|</span>
+                            <li><a href="">三级人力资源师</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">金融财会考试</a></li><span>|</span>
+                            <li><a href="">金融考试</a></li><span>|</span>
+                            <li><a href="">财务考试</a></li><span>|</span>
+                            <li><a href="">CFA</a></li><span>|</span>
+                            <li><a href="">ACCA</a></li><span>|</span>
+                            <li><a href="">CPA</a></li><span>|</span>
+                            <li><a href="">CMA</a></li><span>|</span>
+                        </ul>
+                        <ul>
+                            <li><a href="">公职培训</a></li><span>|</span>
+                            <li><a href="">公务员</a></li><span>|</span>
+                            <li><a href="">法律法考</a></li><span>|</span>
+                            <li><a href="">教师教职</a></li><span>|</span>
+                            <li><a href="">事业单位</a></li><span>|</span>
+                            <li><a href="">社工等其他公职</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">更多考试</a></li><span>|</span>
+                            <li><a href="">更多考试</a></li>
+                        </ul>
+                    </div>
+                    <div class="rtmr">
+                        <a href="#">系列课程</a>
+                        <a href="#">软考—软件设计师套餐</a>
+                        <a href="#">电子商务师养成计划【全套21门】</a>
+                        <a href="#">零基础轻松学项目管理【有证书】</a>
+                        <a href="#">软考—信息系统项目管理师套餐</a>
+                        <a href="#">软考网络工程师终极解密</a>
+                        <a href="#">新媒体运营师养成计划</a>
+                        <a href="#">更多&gt;&gt;</a>
+                        <img src="imgs/index/ybhc8.jpg" alt="">
+                    </div>
+                </div>
+                </div>
+                <div class="rot">
+                    <div data-trigger="rightout" class="rightout" style="height:52px;">
+                    <a href="#">职场之外</a>
+                    <a href="#">摄影</a>
+                    <a href="#">健身</a>
+                    <a href="#">K12</a>
+                </div>
+                    <div class="routmenu rightoutmenu9" style="display: none">
+                    <div class="rtml">
+                        <a href="">职场之外·精选好课</a>
+                        <a href="">饮食健康-明星绝密饮食方法</a>
+                        <ul>
+                            <li><a href="#">摄影影视</a></li><span>|</span>
+                            <li><a href="#">摄影基础</a></li><span>|</span>
+                            <li><a href="#">手机摄影</a></li><span>|</span>
+                            <li><a href="#">摄影后期</a></li><span>|</span>
+                            <li><a href="#">影视基础</a></li><span>|</span>
+                            <li><a href="#">影视后期</a></li><span>|</span>
+                            <li><a href="#">音乐制作</a></li><span>|</span>
+                            <li><a href="#">Pr剪辑</a></li>
+                        </ul>
+                        <ul>
+                            <li style="margin-left: 88px"></li>
+                            <li><a href="#" class="pt-0">AE特效</a></li><span class="pt-0">|</span>
+                            <li><a href="#" class="pt-0">影视行业</a></li><span class="pt-0">|</span>
+                            <li><a href="#" class="pt-0">视频微课制作</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">音乐乐器</a></li><span>|</span>
+                            <li><a href="">乐理基础</a></li><span>|</span>
+                            <li><a href="">声乐唱歌</a></li><span>|</span>
+                            <li><a href="">编曲制作</a></li><span>|</span>
+                            <li><a href="">中国乐器</a></li><span>|</span>
+                            <li><a href="">弦类乐器</a></li><span>|</span>
+                            <li><a href="">琴类乐器</a></li><span>|</span>
+                            <li><a href="">更多</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">运动健康</a></li><span>|</span>
+                            <li><a href="">体育运动</a></li><span>|</span>
+                            <li><a href="">医疗养生</a></li><span>|</span>
+                            <li><a href="">两性健康</a></li><span>|</span>
+                            <li><a href="">健身</a></li><span>|</span>
+                            <li><a href="">舞蹈</a></li><span>|</span>
+                            <li><a href="">瑜伽</a></li><span>|</span>
+                            <li><a href="">武术</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">兴趣修养</a></li><span>|</span>
+                            <li><a href="">绘画</a></li><span>|</span>
+                            <li><a href="">书法</a></li><span>|</span>
+                            <li><a href="">手工DIY</a></li><span>|</span>
+                            <li><a href="">科普</a></li><span>|</span>
+                            <li><a href="">人文</a></li><span>|</span>
+                            <li><a href="">魔术</a></li><span>|</span>
+                            <li><a href="">游戏棋牌</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">居家生活</a></li><span>|</span>
+                            <li><a href="#">美食与健康</a></li><span>|</span>
+                            <li><a href="">家居装饰</a></li><span>|</span>
+                            <li><a href="">时尚美妆</a></li><span>|</span>
+                            <li><a href="">生活对照</a></li><span>|</span>
+                            <li><a href="">风水运势</a></li><span>|</span>
+                            <li><a href="">宠物绿植</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">心理学科</a></li><span>|</span>
+                            <li><a href="">婚恋心理</a></li><span>|</span>
+                            <li><a href="">情绪管理</a></li><span>|</span>
+                            <li><a href="">思维与记忆</a></li><span>|</span>
+                            <li><a href="">心理知识与咨询</a></li><span>|</span>
+                            <li><a href="">星座运势</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">亲子育儿</a></li><span>|</span>
+                            <li><a href="">科学孕产</a></li><span>|</span>
+                            <li><a href="">科学育儿</a></li><span>|</span>
+                            <li><a href="">家庭教育</a></li><span>|</span>
+                            <li><a href="">护理保健</a></li><span>|</span>
+                            <li><a href="">疾病重症</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="">开学辅导</a></li><span>|</span>
+                            <li><a href="">K12教育</a></li><span>|</span>
+                            <li><a href="">综合素质</a></li><span>|</span>
+                            <li><a href="">高等教育</a></li><span>|</span>
+                            <li><a href="">考研</a></li>
+                        </ul>
+                    </div>
+                    <div class="rtmr">
+                        <a href="#">系列课程</a>
+                        <a href="#">成人零基础钢琴入门</a>
+                        <a href="#">从零开始学蛙泳·自由泳·仰泳</a>
+                        <a href="#">谁说手机不能拍大片</a>
+                        <a href="#">影视制作进阶班：深度搞“视”</a>
+                        <a href="#">做一个讲究的“吃货”</a>
+                        <a href="#">跟曾兰老师一起学摄影</a>
+                        <a href="#">更多&gt;&gt;</a>
+                        <img src="imgs/index/ybhc9.jpg" alt="">
+                    </div>
+                </div>
+                </div>
+            </div>
+            <!--zhiboyugao直播-->
+            <div class="zbyg">
+                <img src="imgs/index/zbyg.png" alt="#">
+                <div class="zbygy">
+                    <p>新品如何短时间流量及订单飞涨</p>
+                    <p>时间：10.16&nbsp;14:00～16:00</p>
+                    <p>讲师：湛北</p>
+                </div>
+                <div class="liveflag">直播预告</div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <!--下面小图片左右移动-->
+    <div class="hdend" style="margin-bottom: 30px">
+            <div class="hdendbox">
+                <!-- <a href="javascript:;" class="hdhref">
+                    <img src="imgs/index/top01.png">
+                    <p >数据可视化1</p>
+                    <p>传授高效数据可视化技法</p>
+                </a>
+                <a href="javascript:;" class="hdhref">
+                    <img src="imgs/index/top02.png" alt="">
+                    <p>数据可视化2</p>
+                    <p>传授高效数据可视化技法</p>
+                </a>
+                <a href="javascript:;" class="hdhref">
+                <img src="imgs/index/top03.png" alt="">
+                <p>数据可视化3</p>
+                <p>传授高效数据可视化技法</p>
+                </a>
+                <a href="javascript:;" class="hdhref">
+                <img src="imgs/index/top04.png" alt="">
+                <p>数据可视化4</p>
+                <p>传授高效数据可视化技法</p>
+                </a>
+                <a href="javascript:;" class="hdhref">
+                <img src="imgs/index/top05.png" alt="">
+                <p>数据可视化5</p>
+                <p>传授高效数据可视化技法</p>
+                </a>
+                <a href="javascript:;"class="hdhref">
+                <img src="imgs/index/top06.png" alt="">
+                <p>数据可视化6</p>
+                <p>传授高效数据可视化技法</p>
+                </a>
+                <a href="javascript:void(0)" class="hdhref">
+                    <img src="imgs/index/top01.png">
+                    <p >数据可视化7</p>
+                    <p>传授高效数据可视化技法</p>
+                </a>
+                <a href="javascript:void(0)" class="hdhref">
+                    <img src="imgs/index/top01.png">
+                    <p >数据可视化8</p>
+                    <p>传授高效数据可视化技法</p>
+                </a>
+                <a href="javascript:void(0)" class="hdhref">
+                    <img src="imgs/index/top01.png">
+                    <p >数据可视化9</p>
+                    <p>传授高效数据可视化技法</p>
+                </a>
+                <a href="#" class="hdhref">
+                    <img src="imgs/index/top01.png">
+                    <p >数据可视化10</p>
+                    <p>传授高效数据可视化技法</p>
+                </a>
+                <a href="#" class="hdhref">
+                    <img src="imgs/index/top01.png">
+                    <p >数据可视化11</p>
+                    <p>传授高效数据可视化技法</p>
+                </a> -->
+            </div>
+            <!-- 左右箭头 -->
+            <div class="hdarr">
+                <button class="lfarr lfarrover" disabled></button>
+                <button class="rharr rharrover"></button>
+            </div>
+    </div>   
+    <!-- <div style="text-align: center" class="cftp">
+            <img src="imgs/index/interest-guide.jpg" alt="" />
+    </div> -->
+    <!--中间主体内容--> 
+    <!--推荐课程-->
+    <div  class="midcontent">
+            <div class="recomend-topic">
+                <a href="javasc:;" class="recomend" sty>
+                    <div class="recom-img">
+                        <img src="imgs/index/mrc01.png"></img>
+                    </div>
+                    <div class="recomend-container">
+                        <div class="recomend-container-vertical">
+                            <h3>限免福利课</h3>
+                            <p>来自福布斯的25节金融思维课</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="recomend-topic">
+                <a href="javasc:;" class="recomend" sty>
+                    <div class="recom-img">
+                        <img src="imgs/index/mrc02.png"></img>
+                    </div>
+                    <div class="recomend-container">
+                        <div class="recomend-container-vertical">
+                            <h3>商业金融体系</h3>
+                            <p>金融财商全精通</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="recomend-topic">
+                <a href="javasc:;" class="recomend" sty>
+                    <div class="recom-img">
+                        <img src="imgs/index/mrc03.png"></img>
+                    </div>
+                    <div class="recomend-container">
+                        <div class="recomend-container-vertical">
+                            <h3>互联网课程体系</h3>
+                            <p>“互联网+”时代的新机遇</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="recomend-topic mr-0" >
+                <a href="javasc:;" class="recomend" sty>
+                    <div class="recom-img">
+                        <img src="imgs/index/mrc04.png"></img>
+                    </div>
+                    <div class="recomend-container">
+                        <div class="recomend-container-vertical">
+                            <h3>首批训练营上线</h3>
+                            <p>组队学习，仅限100席</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+    </div>
+    <!--行家-->
+    <div class="hjcontent">
+            <div class="tjhj">
+                <h4>推荐行家</h4>
+                <div class="d-flex justify-content-between">
+                <!-- <div class="tjhjbox">
+                    <a href="javasc:;">
+                        <img src="imgs/index/HJ_JZLS01.png"/>
+                        <div class="tjhjintr">
+                            <p class="tjtrp1">橘子老师</p>
+                            <p class="tjtrp2">同济大学博士 设计软件通网站创始人</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="tjhjbox">
+                    <a href="javasc:;">
+                        <img src="imgs/index/HJ_JQ02.png"/>
+                        <div class="tjhjintr">
+                            <p class="tjtrp1">简七</p>
+                            <p class="tjtrp2">简七理财创始人，理财明星讲师</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="tjhjbox">
+                    <a href="javasc:;">
+                        <img src="imgs/index/HJ_LWX03.png" alt="#"/>
+                        <div class="tjhjintr">
+                            <p class="tjtrp1">刘万祥ExeclPro</p>
+                            <p class="tjtrp2">数据可视化专家，著《Excel图表之道》</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="tjhjbox">
+                    <a href="javasc:;">
+                        <img src="imgs/index/HJ_TYD04.png" alt="#"/>
+                        <div class="tjhjintr">
+                            <p class="tjtrp1">唐宇迪</p>
+                            <p class="tjtrp2">人工智能与数据科学领域培训专家</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="tjhjbox">
+                    <a href="javasc:;">
+                        <img src="imgs/index/HJ_QY05.png" alt="#">
+                        <div class="tjhjintr">
+                            <p class="tjtrp1">秋叶</p>
+                            <p class="tjtrp2">秋叶PPT创始人、畅销书作者</p>
+                        </div>
+                    </a>
+                </div> -->
+                </div>
+            </div>
+    </div>
+    <!--系列课程-->
+    <div class="xlkccont" style="background: white">
+            <div class="xlkcboxes">
+                <h4>系列课程</h4>
+                <div class="d-flex justify-content-between xlkc" style="margin-bottom: 40px">
+                    <!-- <div class="xlkcbox">
+                        <a href="javasc:;">
+                            <img src="imgs/index/xlkc01.png" alt="#">
+                            <div class="xlkcp" >
+                                <h5 class="xlkcp1">轻松学做产品经理</h5>
+                                <p class="xlkcp2">一线互联网大牛带你做产品</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="xlkcbox">
+                        <a href="javasc:;">
+                            <img src="imgs/index/xlkc02.png" alt="#">
+                            <div class="xlkcp">
+                                <h5 class="xlkcp1">影视制作进阶班</h5>
+                                <p class="xlkcp2">让我们一起学点进阶技术吧</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="xlkcbox">
+                        <a href="javasc:;">
+                            <img src="imgs/index/xlkc03.png" alt="#">
+                            <div class="xlkcp">
+                                <h5 class="xlkcp1">跟C计划学思辨</h5>
+                                <p class="xlkcp2">系统提高理性思维能力</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="xlkcbox">
+                        <a href="javasc:;">
+                            <img src="imgs/index/xlkc04.png" alt="#">
+                            <div class="xlkcp">
+                                <h5 class="xlkcp1">跟曾兰一起学摄影</h5>
+                                <p class="xlkcp2">为什么用心拍照了，总还是差点什么</p>
+                            </div>
+                        </a>
+                    </div> -->
+                </div>
+                <h4>精选好课</h4>
+                <div class="d-flex justify-content-between jxhk" style="margin-bottom: 40px">
+                    <!-- <a href="javasc:;" class="jxhkbox">
+                       <div>
+                            <img src="imgs/index/pmsjPSAIID.webp" alt="#">
+                            </div>
+                        <h6>平面设计PS+AI+ID入门精通</h6>
+                        <p>平面设计一课通关</p>
+                    </a>
+                    <a href="javasc:;" class="jxhkbox">
+                        <div>
+                            <img src="imgs/index/pmsjPSAIID.webp" alt="#">
+                        </div>
+                        <h6>平面设计PS+AI+ID入门精通</h6>
+                        <p>平面设计一课通关</p>
+                    </a>
+                    <a href="javasc:;" class="jxhkbox">
+                        <div>
+                            <img src="imgs/index/pmsjPSAIID.webp" alt="#">
+                        </div>
+                        <h6>平面设计PS+AI+ID入门精通</h6>
+                        <p>平面设计一课通关</p>
+                    </a>
+                    <a href="javasc:;" class="jxhkbox">
+                        <div>
+                            <img src="imgs/index/pmsjPSAIID.webp" alt="#">
+                        </div>
+                        <h6>平面设计PS+AI+ID入门精通</h6>
+                        <p>平面设计一课通关</p>
+                    </a>
+                    <a href="javasc:;" class="jxhkbox">
+                        <div>
+                            <img src="imgs/index/pmsjPSAIID.webp" alt="#">
+                        </div>
+                        <h6>平面设计PS+AI+ID入门精通</h6>
+                        <p>平面设计一课通关</p>
+                    </a> -->
+                </div>
+                <h4>新课推荐</h4>
+                <div class="d-flex justify-content-between xktj" style="margin-bottom: 40px">
+                    <!-- <a href="javasc:;" class="jxhkbox">
+                        <div>
+                            <img src="imgs/index/pmsjPSAIID.webp" />
+                        </div>
+                        <h6>平面设计PS+AI+ID入门精通</h6>
+                        <p>平面设计一课通关</p>
+                    </a>
+                    <a href="javasc:;" class="jxhkbox">
+                        <div>
+                            <img src="imgs/index/pmsjPSAIID.webp" />
+                        </div>
+                        <h6>平面设计PS+AI+ID入门精通</h6>
+                        <p>平面设计一课通关</p>
+                    </a>
+                    <a href="javasc:;" class="jxhkbox">
+                        <div>
+                            <img src="imgs/index/pmsjPSAIID.webp" />
+                        </div>
+                        <h6>平面设计PS+AI+ID入门精通</h6>
+                        <p>平面设计一课通关</p>
+                    </a>
+                    <a href="javasc:;" class="jxhkbox">
+                        <div>
+                            <img src="imgs/index/pmsjPSAIID.webp" />
+                        </div>
+                        <h6>平面设计PS+AI+ID入门精通</h6>
+                        <p>平面设计一课通关</p>
+                    </a>
+                    <a href="javasc:;" class="jxhkbox">
+                        <div>
+                            <img src="imgs/index/pmsjPSAIID.webp" />
+                        </div>
+                        <h6>平面设计PS+AI+ID入门精通</h6>
+                        <p>平面设计一课通关</p>
+                    </a> -->
+                </div>
+                <!-- 下面横条广告 -->
+                <div class="d-flex justify-content-between" style="margin-top:20px">
+                    <a href="javasc:;">
+                        <img src="imgs/index/ad_jsj.png" />
+                    </a>
+                    <a href="javasc:;">
+                        <img src="imgs/index/ad_app.png"/>
+                    </a>
+                </div>
+            </div>
+    </div>
+   <!--右侧边提示-->
+        <div class="m-side" id="toTop">
+            <a href="javascript:;" style="background:url(imgs/index/riconTalk.png) no-repeat center center"></a><hr>
+            <a href="javascript:;" style="background: url(imgs/index/riconIpad.png) no-repeat center center"></a><hr>
+            <a href="#" style="background: url(imgs/index/riconTotop.png) no-repeat center center"></a>
+        </div>
+        <!--左侧广告-->
+        <!-- <div class="leftad">
+            <a href="#"><img src="imgs/index/leftad.jpg" alt=""></a>
+        </div> -->
+        <footer id="footer"></footer>
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/header.js"></script>
+    <script src="js/footer.js"></script>
+</body>
+</html>

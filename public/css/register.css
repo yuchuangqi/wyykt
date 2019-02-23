@@ -1,0 +1,89 @@
+body{
+    min-width: 960px;
+    min-height: 100%;
+    height: auto;
+    /* padding-top: 60px; */
+    position: relative; 
+    background: #eee;
+}
+
+.regbox a,a:hover{
+    text-decoration: none;
+    color: white;
+}
+.regbox{
+    width:1205px;
+    height: 433px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px 0;
+    margin: 100px auto 80px;
+    box-sizing: content-box;
+}
+.boxcontainer{
+    margin: 0px auto;
+    width: 580px;
+    height: 433px;
+}
+.formcontent{
+    margin-top:20px;
+    padding:0 40px 40px;
+    height:433px;
+}
+.boxf>li:first-child{
+    border-bottom: 2px solid #49AF4F !important;
+}
+.boxf>li{
+    font-size: 20px;
+    height:52px;
+    width:180px;
+    border-bottom: 2px solid #c5cddb;
+    line-height: 52px;
+    text-align: left;
+}
+.boxs{
+    padding-top:30px;
+    height: 230px;
+    width:360px;
+    box-sizing: border-box;
+}
+.u-box,.rupwd,.agupwd{
+    border:1px solid #c5cddb;
+    display: flex;
+}
+.boxs .boxsone{
+    width: 22px;
+    height: 24px;
+    box-sizing: border-box;
+    margin:10px 10px 8px 10px;
+    line-height: 44px;
+}
+.boxs input{
+    height: 44px;
+    width: 314px;
+    margin-left: 10px;
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+}
+.u-logo{
+    width:36px;
+    border:0;
+}
+.regBtn{
+    display: block;
+    text-align: center;
+    margin-top:20px;
+    margin-left: 0 !important;
+    width:360px !important;
+    height:44px;
+    color: white;
+    line-height: 44px;
+    background: #49AF4F !important;
+    border-radius: 2px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.unlogin a{
+    color: black;
+}

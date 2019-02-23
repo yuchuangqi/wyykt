@@ -1,0 +1,53 @@
+body,div,d1,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,from,fieldset,input,p,textarea,th,td,blockquote,hr,button{
+    padding:0;
+    margin:0;
+}
+ul{
+    list-style: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+body{
+    min-width: 1205px;
+    width:100%;
+}
+body,textarea,select,input,a{
+    font-family: "Arial","Hiragino Sans GB", \5fae\8f6f\96c5\9ed1, "Helvetica", "sans-serif";
+}
+.myfooter{
+    width:100%;
+    height: 100%;
+    margin: 0;
+    padding:0;
+}
+.myheader{
+    width:100%;}
+/*右侧边至顶部*/
+.m-side{
+    position:fixed;
+    background: #fff;
+    right: 30px;
+    bottom:112px;
+    width:60px;
+    font-size: 14px;
+    z-index: 1000;
+    border:1px solid #ccc;
+    display: none;
+    box-sizing: content-box;
+    /*height: 184px;*/
+}
+.m-side a{
+    position: relative;
+    width: 60px;
+    height: 60px;
+    display: block;
+    border:0;
+    border-bottom: 1px solid #ddd;
+}
+.m-side>hr{
+    margin: 0;
+    color:#cccccc;
+    height: 0px;
+    border: 0;
+}

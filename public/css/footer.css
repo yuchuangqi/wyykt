@@ -1,0 +1,95 @@
+#footer{
+    width: 100%;
+    background-color: #444444 !important;
+    margin: 0 auto;
+    color: white;
+    font-size: 14px;
+}
+/* justify-content：space-around 左右边上有边距      
+justify-content：space-between 左右边上没有边距 */
+.f_box{
+    width: 1205px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+#footer a{
+    color:white
+}
+.f_img1{
+    background: url(../imgs/footer/download_icon.png) no-repeat;
+    background-position: 0 -42px;
+}
+.f_img2{
+    background: url(../imgs/footer/download_icon.png) no-repeat;
+}
+.f_img1,.f_img2{
+    display: block;
+    width: 111px;
+    height: 32px;
+    float: right;
+    margin-left:10px; 
+}
+
+.f_img::after,.f_icon::after,.f_l_ul::after{
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    overflow: hidden;
+    content: ".";
+}
+.f_icon{
+    padding-top:30px;
+}
+.f_icon1{
+    background: url("../imgs/footer/shareLinkUI.png") no-repeat;
+    background-position: -34px -52px;
+}
+.f_icon2{
+    background: url("../imgs/footer/shareLinkUI.png") no-repeat;
+    background-position: -34px -72px;
+}
+.f_icon3{
+    background: url("../imgs/footer/shareLinkUI.png") no-repeat;
+    background-position: -7px -72px;
+}
+.f_icon4{
+    background: url("../imgs/footer/shareLinkUI.png") no-repeat;
+    background-position: -7px -52px;
+}
+.f_icon_text{
+    float: right
+}
+.f_icon1,.f_icon2,.f_icon3,.f_icon4{
+    float: right;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 2px 0 0 4px;
+}
+.f_l_ul li{
+    float: left;
+}
+.f_l{
+    width:702px;
+    height:90px;
+    padding: 30px 0;
+    text-align: left;
+}
+.f_l p:first-child{
+    line-height: 22px;
+    margin-bottom: 11px;
+}
+.f_l ul li{
+    margin-right: 17px;
+    cursor: pointer;
+}
+.f_l p:last-child{
+    color:#999;
+    margin-top:15px;
+}
+.f_r{
+    width: 242px;
+    padding: 30px 0;
+}
