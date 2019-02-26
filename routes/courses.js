@@ -40,6 +40,7 @@ router.get("/Search",(req,res)=>{
         console.log('页数是：'+output.pageCount)
         console.log('结果是：'+result)
         output.courses=//截取分页后的结果集
+        // 
             result.slice(output.pno*10,output.pno*10+10);
         res.writeHead(200,{
             "Content-Type":"application/json;charset=utf-8",

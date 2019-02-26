@@ -15,6 +15,7 @@ $(function(){
                 dataType:"json",
                 success:function(output){
                     console.log(output);
+                    // 
                     var {courses,pageCount}=output;
                     var html="";
                     for(p of courses){
